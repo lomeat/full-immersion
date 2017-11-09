@@ -11,6 +11,6 @@
 bInvalidateOlderFiles=1
 sResourceDataDirsFinal=
 ```
-1. Скопировать содержимое папки /Data/* в ./Data в корне игры.
+1. Скопировать папку ./Data в корень игры.
 
 **Примечание:**
