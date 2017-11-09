@@ -28,11 +28,13 @@
 
 ## Звук
 
-1. [True 3D Sound for Headphones](https://rd.nexusmods.com/fallout4/mods/19680/?) - Создает эффект 3д в звуковом окружении. Теперь если, например, банка упала слева от игрока, то звук прозвучит отчетливо слева.
+<!-- [Установка]() -->
+
+1. [True 3D Sound for Headphones](https://rd.nexusmods.com/fallout4/mods/19680/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/True%203D%20Sound%20for%20Headphones) - Создает эффект 3д в звуковом окружении. Теперь если, например, банка упала слева от игрока, то звук прозвучит отчетливо слева.
 
 1. [Reverb and Ambiance Overhaul](https://rd.nexusmods.com/fallout4/mods/10189/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/Reverb%20and%20Ambiance%20Overhaul%20-%20ALL%20DLC) - Улучшает общее игровое звучание, изменяет баланс некоторых звуков, делая общую картину более реалистичной. Теперь звуки выстрелов в замкнутом и открытом пространстве будут координально различаться.
 
-1. [Radiant Birds](https://rd.nexusmods.com/fallout4/mods/2397/?) - Добавляет звуки птиц.
+1. [Radiant Birds](https://rd.nexusmods.com/fallout4/mods/2397/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/Radiant%20Birds%20v0.5) - Добавляет звуки птиц.
 
 1. [Towbie's Realistic Weapon Sounds](https://rd.nexusmods.com/fallout4/mods/130/?) - Изменяет "игрушечные" звуки выстрелов на более реалистичные и приятные.
 
