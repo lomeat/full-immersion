@@ -20,15 +20,15 @@
 1. Найдите файл plugins.txt, находящийся по адресу C:\Users\Имя Пользователя\AppData\Local\Fallout4.
 1. Кликните по файлу правой кнопкой мыши и выберите пункт «Свойства».
 1. Уберите галочку с пункта «Только чтение» и нажмите кнопку «Применить».
-1. Откройте файл блокнотом и сразу после строчки Fallout4.esm, вставьте полное название скачанного мода с расширением (например, `Reverb and Ambiance Overhaul.esp`).
+1. Откройте файл блокнотом и сразу после строчки Fallout4.esm, вставьте полное название скачанного мода с расширением (например, `ReverbandAmbianceOverhaul.esp`).
 1. Сохраните и закройте файл.
 1. Установите файлу свойство "Только чтение".
 
 ------------------------------------------------------
 
-## Звук
-
 <!-- 1. []() - [Установка]() - -->
+
+## Звук
 
 1. [True 3D Sound for Headphones](https://rd.nexusmods.com/fallout4/mods/19680/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/True%203D%20Sound%20for%20Headphones) - Создает эффект 3д в звуковом окружении. Теперь если, например, банка упала слева от игрока, то звук прозвучит отчетливо слева.
 
@@ -44,10 +44,10 @@
 
 1. [Darker Nights](https://rd.nexusmods.com/fallout4/mods/191/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/Darker%20Nights) - Позволяет сделать нормальные настоящие темные ночи. Это вам не светлый Питер, это, бл, жуткий Бостон.
 
-1. [Extreme Particles Overhaul 2.0](https://rd.nexusmods.com/fallout4/mods/24159/?) - [Установка]() - Добавляет красочные эффекты высокого разрешения для оружия.
+1. [True Storms - Wasteland Edition](https://rd.nexusmods.com/fallout4/mods/4472) - []() - Полностью переделанная система штормов. Грозы, штормы, радиационные дожди. Новая уникальная погода, новые звуковые эффекты, эффекты частиц, текстуры и другое.
 
-### Текстуры
+1. [Extreme Particles Overhaul 2.0](https://rd.nexusmods.com/fallout4/mods/24159/?) - []() - Добавляет красочные эффекты высокого разрешения для оружия.
 
 ## Геймплей
 
-1. [West Tek Tactical Optics](https://rd.nexusmods.com/fallout4/mods/12220/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/West%20Tek%20Tactical%20Optics%20v2.0.1) - Добавляет приборы ночного видения и прочую шелоху, чтобы видеть в эти черные-черные ночи.
+1. [West Tek Tactical Optics](https://rd.nexusmods.com/fallout4/mods/12220/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/West%20Tek%20Tactical%20Optics%20v2.0.1) - Добавляет приборы ночного видения и тепловизоры, чтобы видеть в темноте и черные-черные ночи.
