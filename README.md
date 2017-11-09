@@ -36,7 +36,7 @@
 
 1. [Radiant Birds](https://rd.nexusmods.com/fallout4/mods/2397/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/Radiant%20Birds%20v0.5) - Добавляет звуки птиц.
 
-1. [Towbie's Realistic Weapon Sounds](https://rd.nexusmods.com/fallout4/mods/130/?) - Изменяет "игрушечные" звуки выстрелов на более реалистичные и приятные.
+1. [Towbie's Realistic Weapon Sounds](https://rd.nexusmods.com/fallout4/mods/130/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/Towbie's%20Realistic%20Firearms) - Изменяет "игрушечные" звуки выстрелов на более реалистичные и приятные.
 
 ## Графика, освещение, окружение
 
