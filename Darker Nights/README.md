@@ -4,7 +4,7 @@
 
 ## Установка
 
-1. !! ЛУчше ставить через Nexus Mod Manager или Fallout Mod Manager.
+1. !! Лучше ставить через Nexus Mod Manager или Fallout Mod Manager.
 1. Скопировать папку ./Data в корень игры.
 1. В ../plugins.txt добавить строку `name_mod.esp`.
 

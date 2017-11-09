@@ -28,7 +28,7 @@
 
 ## Звук
 
-<!-- - [Установка]() -->
+<!-- 1. []() - [Установка]() - -->
 
 1. [True 3D Sound for Headphones](https://rd.nexusmods.com/fallout4/mods/19680/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/True%203D%20Sound%20for%20Headphones) - Создает эффект 3д в звуковом окружении. Теперь если, например, банка упала слева от игрока, то звук прозвучит отчетливо слева.
 
@@ -40,6 +40,8 @@
 
 ## Графика, освещение, окружение
 
-1. [Darker Nights](https://rd.nexusmods.com/fallout4/mods/191/?) - [Установка]() - Позволяет сделать нормальные настоящие темные ночи. Это вам не светлый Питер, это, бл, жуткий Бостон.
+1. [Darker Nights](https://rd.nexusmods.com/fallout4/mods/191/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/Darker%20Nights) - Позволяет сделать нормальные настоящие темные ночи. Это вам не светлый Питер, это, бл, жуткий Бостон.
 
-1. [West Tek Tactical Optics](https://rd.nexusmods.com/fallout4/mods/12220/?) - [Установка]() - Добавляет приборы ночного видения и прочую шелоху, чтобы видеть в эти черные-черные ночи.
+1. [West Tek Tactical Optics](https://rd.nexusmods.com/fallout4/mods/12220/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/West%20Tek%20Tactical%20Optics%20v2.0.1) - Добавляет приборы ночного видения и прочую шелоху, чтобы видеть в эти черные-черные ночи.
+
+1. [Extreme Particles Overhaul 2.0](https://rd.nexusmods.com/fallout4/mods/24159/?) - [Установка]() - Добавляет красочные эффекты высокого разрешения для оружия.
