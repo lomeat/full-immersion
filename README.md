@@ -38,10 +38,16 @@
 
 1. [Towbie's Realistic Weapon Sounds](https://rd.nexusmods.com/fallout4/mods/130/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/Towbie's%20Realistic%20Firearms) - Изменяет "игрушечные" звуки выстрелов на более реалистичные и приятные.
 
-## Графика, освещение, окружение
+## Графика
+
+### Освещение
 
 1. [Darker Nights](https://rd.nexusmods.com/fallout4/mods/191/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/Darker%20Nights) - Позволяет сделать нормальные настоящие темные ночи. Это вам не светлый Питер, это, бл, жуткий Бостон.
 
-1. [West Tek Tactical Optics](https://rd.nexusmods.com/fallout4/mods/12220/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/West%20Tek%20Tactical%20Optics%20v2.0.1) - Добавляет приборы ночного видения и прочую шелоху, чтобы видеть в эти черные-черные ночи.
-
 1. [Extreme Particles Overhaul 2.0](https://rd.nexusmods.com/fallout4/mods/24159/?) - [Установка]() - Добавляет красочные эффекты высокого разрешения для оружия.
+
+### Текстуры
+
+## Геймплей
+
+1. [West Tek Tactical Optics](https://rd.nexusmods.com/fallout4/mods/12220/?) - [Установка](https://github.com/lomeat/full-immersion/tree/master/West%20Tek%20Tactical%20Optics%20v2.0.1) - Добавляет приборы ночного видения и прочую шелоху, чтобы видеть в эти черные-черные ночи.
