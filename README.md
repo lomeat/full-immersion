@@ -15,7 +15,7 @@
 `sResourceDataDirsFinal=STRINGS\, TEXTURES\, INTERFACE\, SOUND\, MUSIC\, VIDEO\, MESHES\, PROGRAMS\, MATERIALS\, LODSETTINGS\, VIS\, MISC\, SCRIPTS\, SHADERSFX\`
 1. Сохраните изменения и закройте файл.
 
-### Для установки плагинов ESP и ESM
+### Для установки плагинов ESP и ESM используйте NMM (авто) или вручную:
 
 1. Найдите файл plugins.txt, находящийся по адресу C:\Users\Имя Пользователя\AppData\Local\Fallout4.
 1. Кликните по файлу правой кнопкой мыши и выберите пункт «Свойства».
