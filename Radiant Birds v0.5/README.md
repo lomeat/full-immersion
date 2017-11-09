@@ -12,5 +12,6 @@ bInvalidateOlderFiles=1
 sResourceDataDirsFinal=
 ```
 1. Скопировать папку ./Data в корень игры.
+1. В ../plugins.txt добавить строку `name_mod.esp`.
 
 **Примечание:**
