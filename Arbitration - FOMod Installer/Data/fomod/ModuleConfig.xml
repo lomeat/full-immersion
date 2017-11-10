@@ -1,0 +1,539 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+        <moduleName>Arbitration</moduleName>
+    <!-- <moduleImage path="fomod\images\banner.png"/> -->
+        <installSteps order="Explicit">
+		<installStep name="Components">
+                        <optionalFileGroups order="Explicit">
+							<group name="Recommended or Modular?" type="SelectExactlyOne">
+								<plugins order="Explicit">
+									<plugin name="Recommended Core">
+											<description>Stealth Overhaul (normal detection distance), Better Combat AI, Reduced Grenade Spam, Farther Grenade Detection, Molotov Overhaul, No Condition Regeneration, Fall Damage Overhaul, and Compass Radar Reduction. Note that damage by and to player, farther stealth detection, and reload or walk speed changes can be selected separately and are not included in this file.</description>
+											<image path="fomod\images\Main.jpg"/>
+											<conditionFlags>
+                                                <flag name="Recommended">Y</flag>
+                                            </conditionFlags>
+										<typeDescriptor>
+												<type name="Optional"/>
+										</typeDescriptor>
+									</plugin>										
+									<plugin name="Modular">
+											<description>Pick whatever you want.</description>
+											<image path="fomod\images\Main.jpg"/>
+											<conditionFlags>
+                                                <flag name="Modular">Y</flag>
+                                            </conditionFlags>
+										<typeDescriptor>
+												<type name="Optional"/>
+										</typeDescriptor>
+									</plugin>
+								</plugins>
+							</group>
+						</optionalFileGroups>
+                </installStep>
+				<installStep name="Damage">
+				<visible>
+				</visible>
+                        <optionalFileGroups order="Explicit">
+				<group name="Damage by Player" type="SelectAtMostOne"> <!-- Damage by Player Section -->
+                                        <plugins order="Explicit">
+										<plugin name="Damage by Player 1x">
+                                                        <description>
+                                                        Increases survival damage done by player from 0.5x "normal" difficulty damage value to 1x "normal" difficulty damage value.
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="DamageBy1">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                        <plugin name="Damage by Player 1.5x">
+                                                        <description>
+                                                        Increases survival damage done by player from 0.5x "normal" difficulty damage value to 1.5x "normal" difficulty damage value.
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="DamageBy1.5">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                        <plugin name="Damage by Player 2x">
+                                                        <description>
+                                                        Increases survival damage done by player from 0.5x "normal" difficulty damage value to 2x "normal" difficulty damage value.
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="DamageBy2">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                        <plugin name="Damage by Player 2.5x (Recommended)">
+                                                        <description>
+                                                        Increases survival damage done by player from 0.5x "normal" difficulty damage value to 2.5x "normal" difficulty damage value.
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="DamageBy2.5">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                                <plugin name="Damage by Player 3x">
+                                                        <description>
+                                                        Increases survival damage done by player from 0.5x "normal" difficulty damage value to 3x "normal" difficulty damage value.
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="DamageBy3">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                        </plugins>
+                                </group>
+                                <group name="Damage to Player" type="SelectAtMostOne"> <!-- Damage to Player Section -->
+                                        <plugins order="Explicit">
+                                        <plugin name="Damage to Player 2x">
+                                                        <description>
+                                                        Increases damage done to player by 2x "normal" difficulty damage value.
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="DamageTo2">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                        <plugin name="Damage to Player 3x">
+                                                        <description>
+                                                        Increases damage done to player by 3x "normal" difficulty damage value.
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="DamageTo3">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                        <plugin name="Damage to Player 4x">
+                                                        <description>
+                                                        Increases damage done to player by 4x "normal" difficulty damage value.
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="DamageTo4">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                                <plugin name="Damage to Player 5x (Recommended)">
+                                                        <description>
+                                                        Increases damage done to player by 5x "normal" difficulty damage value.
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="DamageTo5">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                                <plugin name="Damage to Player 6x">
+                                                        <description>
+                                                        Increases damage done to player by 6x "normal" difficulty damage value.
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="DamageTo6">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                        </plugins>
+                                </group>
+								</optionalFileGroups>
+                </installStep>
+                <installStep name="Components">
+				<visible>
+					<flagDependency flag="Modular" value="Y" />
+				</visible>
+                        <optionalFileGroups order="Explicit">
+                                <group name="General Options" type="SelectAny">
+                                        <plugins order="Explicit">
+												<plugin name="Stealth Overhaul">
+                                                        <description>Longer search times, light has larger impact on stealth.</description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="Stealth">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                                <plugin name="Better Combat AI">
+                                                        <description>AI attacks as if trying to kill you.</description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="AI">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+												<plugin name="Reduced Grenade Spam">
+                                                        <description>Helpful with better combat AI, increases time delay for NPC to throw molotovs (7.5 seconds to 25 seconds) and grenades (5 seconds to 25 seconds).</description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="Reduced Grenade Spam">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+												<plugin name="Farther Grenade Detection">
+                                                        <description>Helpful with better combat AI, increases the range at which you detect grenades from 512 to 2048.</description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="Farther Grenade Detection">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                                <plugin name="Molotov Overhaul">
+                                                        <description>Molotovs burn ppl instead of 'splode ppl.</description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="Molotov">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+												<plugin name="No Condition Regeneration">
+                                                        <description>Concussions and broken limbs won't automatically regenerate until 2 minutes have passed rather than 30 seconds. This takes into account that your followers use these settings as well.</description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="NoConditionRegeneration">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                                <plugin name="Fall Damage Overhaul">
+                                                        <description>Falling doesn't kill you as easy, but it does break your legs.</description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="Fall">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                                <plugin name="Compass Radar Reduction">
+                                                        <description>Reduces default compass radar distance to limit radar to people closer to you.</description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="Compass">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                        </plugins>
+                                </group>                                                            
+                        </optionalFileGroups>
+                </installStep>
+				<installStep name="Farther Stealth Detection - READ WARNINGS">
+				<optionalFileGroups>
+					<group name="Detection Distance Increase - Experienced Users Only" type="SelectAtMostOne">
+                                        <plugins order="Explicit">
+										<plugin name="Detection Distance Increase">
+                                                        <description>
+                                                        NPCs detect you and other npcs at 2x the distance inside and 4x the distance outside. &#13;&#10;&#13;&#10;WARNING: NPCs will fuck each other up with this enabled. Shooting into the sky at vertibirds, cars blowing up in the distance as firefights erupt, and ghouls charging in and killing half the raiders you're fighting are common. Can occasionally give you a "Mission Failed" notice as some non-essential NPC in the distance bites the dust. Recommended to A) reload the game and save the NPC and B) Tell me which NPC so maybe I can flag it as killable only by you or something (I'll look into it.)
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="SneakDetectionIncrease">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+												<plugin name="Det. Dist. Inc. Half">
+                                                        <description>
+                                                        NPCs detect you and other npcs at twice the distance. &#13;&#10;&#13;&#10;WARNING: NPCs may fuck each other up with this enabled, though not as much as with the 4x outside distance increase file above. See warning for that file.
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="SneakDetectionIncrease50">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+												</plugins>
+												</group>  
+				</optionalFileGroups>
+				</installStep>				
+				<installStep name="Walk and Reload Speed - READ WARNINGS">
+				<optionalFileGroups>
+					<group name="Speed - Experienced Users Only" type="SelectAtMostOne">
+                                        <plugins order="Explicit">
+                                        <plugin name="Increased Walk Speed">
+                                                        <description>
+                                                        Increases walking (and player overburdened) speed by 25% for all NPCs and the player.&#13;&#10;&#13;&#10;WARNING: Test this first. Do not make a save with this file enabled until you are sure you are happy with the changes. If you decide later to uninstall:
+                                                        &#13;&#10;&#13;&#10;WARNING: To uninstall, first remove the speed uninstaller, then save your game. Then remove the speed file (or not, it should be disabled either way).
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="WalkSpeed">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                        <plugin name="Reduced Reload speed">
+                                                        <description>
+                                                        Please note that reloading quicksaves or autosaves may apply this effect twice, making you reload in slowmo, in which case you'll need to save, quit, and reload the game normally. Decreases reloading speed by 30% for all NPCs as well as the player.&#13;&#10;&#13;&#10;WARNING: Test this first. Do not make a save with this file enabled until you are sure you are happy with the changes. If you decide later to uninstall:
+                                                        &#13;&#10;&#13;&#10;WARNING: To uninstall, first remove the speed uninstaller, then save your game. Then remove the speed file (or not, it should be disabled either way).
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="ReloadSpeed">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                        <plugin name="Both">
+                                                        <description>
+                                                        This provides both the changes involving walk/reload speeds as described above.&#13;&#10;&#13;&#10;WARNING: Test this first. Do not make a save with this file enabled until you are sure you are happy with the changes. If you decide later to uninstall:
+                                                        &#13;&#10;&#13;&#10;WARNING: To uninstall, first remove the speed uninstaller, then save your game. Then remove the speed file (or not, it should be disabled either way).
+                                                        </description>
+                                                        <image path="fomod\images\Main.jpg"/>
+                                                        <conditionFlags>
+                                                                <flag name="Both">Y</flag>
+                                                        </conditionFlags>
+                                                        <typeDescriptor>
+                                                                <type name="Optional"/>
+                                                        </typeDescriptor>
+                                                </plugin>
+                                        </plugins>
+                                </group>   
+					</optionalFileGroups>
+				</installStep>
+        </installSteps>
+ 
+        <conditionalFileInstalls>
+                <patterns>
+						<pattern>
+                                <dependencies>
+                                        <flagDependency flag="Recommended" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Recommended Core.esp" destination="Arbitration - Recommended Core.esp"/>
+                                </files>
+                        </pattern>
+						<pattern>
+                                <dependencies>
+                                        <flagDependency flag="DamageBy1" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Survival Damage by Player 1x.esp" destination="Arbitration - Survival Damage by Player 1x.esp"/>
+                                </files>
+                        </pattern>
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="DamageBy1.5" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Survival Damage by Player 1.5x.esp" destination="Arbitration - Survival Damage by Player 1.5x.esp"/>
+                                </files>
+                        </pattern>
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="DamageBy2" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Survival Damage by Player 2x.esp" destination="Arbitration - Survival Damage by Player 2x.esp"/>
+                                </files>
+                        </pattern>
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="DamageBy2.5" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Survival Damage by Player 2.5x.esp" destination="Arbitration - Survival Damage by Player 2.5x.esp"/>
+                                </files>
+                        </pattern>
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="DamageBy3" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Survival Damage by Player 3x.esp" destination="Arbitration - Survival Damage by Player 3x.esp"/>
+                                </files>
+                        </pattern>
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="DamageTo2" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Survival Damage to Player 2x.esp" destination="Arbitration - Survival Damage to Player 2x.esp"/>
+                                </files>
+                        </pattern>
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="DamageTo3" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Survival Damage to Player 3x.esp" destination="Arbitration - Survival Damage to Player 3x.esp"/>
+                                </files>
+                        </pattern>
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="DamageTo4" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Survival Damage to Player 4x.esp" destination="Arbitration - Survival Damage to Player 4x.esp"/>
+                                </files>
+                        </pattern>
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="DamageTo5" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Survival Damage to Player 5x.esp" destination="Arbitration - Survival Damage to Player 5x.esp"/>
+                                </files>
+                        </pattern>
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="DamageTo6" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Survival Damage to Player 6x.esp" destination="Arbitration - Survival Damage to Player 6x.esp"/>
+                                </files>
+                        </pattern>
+                        <pattern> <!--use AI?-->
+                                <dependencies>
+                                        <flagDependency flag="AI" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Better Combat AI.esp" destination="Arbitration - Better Combat AI.esp"/>
+                                </files>
+                        </pattern>
+						<pattern> <!--use Reduced Grenade Spam?-->
+                                <dependencies>
+                                        <flagDependency flag="Reduced Grenade Spam" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Reduced Grenade Spam.esp" destination="Arbitration - Reduced Grenade Spam.esp"/>
+                                </files>
+                        </pattern>
+						<pattern> <!--use Farther Grenade Detection?-->
+                                <dependencies>
+                                        <flagDependency flag="Farther Grenade Detection" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Farther Grenade Detection.esp" destination="Arbitration - Farther Grenade Detection.esp"/>
+                                </files>
+                        </pattern>
+                        <pattern> <!--use Stealth?-->
+                                <dependencies>
+                                        <flagDependency flag="Stealth" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Stealth Overhaul.esp" destination="Arbitration - Stealth Overhaul.esp"/>
+                                </files>
+                        </pattern>		
+						<pattern>
+                                <dependencies>
+                                        <flagDependency flag="SneakDetectionIncrease" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Sneak Detection Distance Increase.esp" destination="Arbitration - Sneak Detection Distance Increase.esp"/>
+                                </files>
+                        </pattern>	
+						<pattern>
+                                <dependencies>
+                                        <flagDependency flag="SneakDetectionIncrease50" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Sneak Detection Distance Increase (Half).esp" destination="Arbitration - Sneak Detection Distance Increase (Half).esp"/>
+                                </files>
+                        </pattern>							
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="Fall" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Fall Damage Overhaul.esp" destination="Arbitration - Fall Damage Overhaul.esp"/>
+                                </files>
+                        </pattern>
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="Compass" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Compass Radar Reduction.esp" destination="Arbitration - Compass Radar Reduction.esp"/>
+                                </files>
+                        </pattern>                     
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="Molotov" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Molotov.esp" destination="Arbitration - Molotov.esp"/>
+                                </files>
+                        </pattern>
+						<pattern>
+                                <dependencies>
+                                        <flagDependency flag="NoConditionRegeneration" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - No Condition Regeneration.esp" destination="Arbitration - No Condition Regeneration.esp"/>
+                                </files>
+                        </pattern>
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="WalkSpeed" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Increased Walk Speed.esp" destination="Arbitration - Increased Walk Speed.esp"/>
+                                        <file source="Arbitration - Speed Uninstaller (Remove This and Save).esp" destination="Arbitration - Speed Uninstaller (Remove This and Save).esp"/>
+                                </files>
+                        </pattern>
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="ReloadSpeed" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Reduced Reload Speed.esp" destination="Arbitration - Reduced Reload Speed.esp"/>
+                                        <file source="Arbitration - Speed Uninstaller (Remove This and Save).esp" destination="Arbitration - Speed Uninstaller (Remove This and Save).esp"/>
+                                </files>
+                        </pattern>
+                        <pattern>
+                                <dependencies>
+                                        <flagDependency flag="Both" value="Y"/>
+                                </dependencies>
+                                <files>
+                                        <file source="Arbitration - Reload and Walk Speed.esp" destination="Arbitration - Reload and Walk Speed.esp"/>
+                                        <file source="Arbitration - Speed Uninstaller (Remove This and Save).esp" destination="Arbitration - Speed Uninstaller (Remove This and Save).esp"/>
+                                </files>
+                        </pattern>
+                </patterns>
+        </conditionalFileInstalls>
+ 
+</config>
