@@ -51,3 +51,5 @@
 ## Геймплей
 
 1. [West Tek Tactical Optics](https://rd.nexusmods.com/fallout4/mods/12220/?) - Добавляет приборы ночного видения и тепловизоры, чтобы видеть в темноте и черные-черные ночи.
+
+1. [Craftable Ammo](https://rd.nexusmods.com/fallout4/mods/798/?tab=description) - Позволяет игроку создавать патроны на хим. лаборатории.

@@ -1,0 +1,105 @@
+﻿<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+  <moduleName>Craftable Ammo</moduleName>
+  <installSteps order="Explicit">
+    <installStep name="Custom">
+      <optionalFileGroups order="Explicit">
+        <group name="Ballistic ammo" type="SelectAtMostOne">
+          <plugins order="Explicit">
+			<plugin name="x10">
+              <description>
+                x10 ballistic ammo per recipe
+              </description>	  
+              <files>
+                <file source="CraftableAmmo_x10\CraftableAmmo.esp" destination="CraftableAmmo.esp"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="x25 (recommended)">
+              <description>
+                x25 ballistic ammo per recipe
+              </description>	  
+              <files>
+                <file source="CraftableAmmo_x25\CraftableAmmo.esp" destination="CraftableAmmo.esp"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="x50">
+              <description>
+                x50 ballistic ammo per recipe
+              </description>	  
+              <files>
+                <file source="CraftableAmmo_x50\CraftableAmmo.esp" destination="CraftableAmmo.esp"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="x100">
+              <description>
+                x100 ballistic ammo per recipe
+              </description>	  
+              <files>
+                <file source="CraftableAmmo_x100\CraftableAmmo.esp" destination="CraftableAmmo.esp"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+		</plugins>
+		</group>
+		<group name="Other ammo" type="SelectAtMostOne">
+          <plugins order="Explicit">
+			<plugin name="x10">
+              <description>
+                x10 other types of ammo per recipe
+              </description>	  
+              <files>
+                <file source="CraftableAmmo_x10\CraftableAmmo_plus.esp" destination="CraftableAmmo_plus.esp"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="x25 (recommended)">
+              <description>
+                x25 other types of ammo per recipe
+              </description>
+              <files>
+                <file source="CraftableAmmo_x25\CraftableAmmo_plus.esp" destination="CraftableAmmo_plus.esp"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="x50">
+              <description>
+                x50 other types of ammo per recipe
+              </description>	  
+              <files>
+                <file source="CraftableAmmo_x50\CraftableAmmo_plus.esp" destination="CraftableAmmo_plus.esp"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="x100">
+              <description>
+                x100 other types of ammo per recipe
+              </description>	  
+              <files>
+                <file source="CraftableAmmo_x100\CraftableAmmo_plus.esp" destination="CraftableAmmo_plus.esp"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+		</plugins>
+		</group>
+	 </optionalFileGroups>
+    </installStep>
+  </installSteps>
+</config>
